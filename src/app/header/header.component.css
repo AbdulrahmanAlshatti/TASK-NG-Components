@@ -1,0 +1,22 @@
+nav.flexbox {
+  background-color: #eed7b1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: large;
+  ul {
+    display: flex;
+    align-items: center;
+  }
+  ul li {
+    margin-right: 20px;
+    list-style-type: none;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+  img {
+    width: 60px;
+    height: 60px;
+  }
+}
