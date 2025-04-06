@@ -1,0 +1,19 @@
+.block {
+  /* background-color: #eed7b1; */
+  display: block;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  font-size: large;
+  background-color: #b27a37;
+  ul {
+    /* display: flex; */
+    align-items: center;
+  }
+  ul li {
+    margin-right: 20px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
